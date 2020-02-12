@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Lion86-AliakseiChalenka/test_Omertex/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Lion86-AliakseiChalenka/test_Omertex/static/js/main.68d69d5c.chunk.js",
+    "main.js.map": "/Lion86-AliakseiChalenka/test_Omertex/static/js/main.68d69d5c.chunk.js.map",
+    "runtime-main.js": "/Lion86-AliakseiChalenka/test_Omertex/static/js/runtime-main.3a9a87c1.js",
+    "runtime-main.js.map": "/Lion86-AliakseiChalenka/test_Omertex/static/js/runtime-main.3a9a87c1.js.map",
+    "static/js/2.09acfff9.chunk.js": "/Lion86-AliakseiChalenka/test_Omertex/static/js/2.09acfff9.chunk.js",
+    "static/js/2.09acfff9.chunk.js.map": "/Lion86-AliakseiChalenka/test_Omertex/static/js/2.09acfff9.chunk.js.map",
+    "index.html": "/Lion86-AliakseiChalenka/test_Omertex/index.html",
+    "precache-manifest.b1ba957319101fc39334269d9eaeb493.js": "/Lion86-AliakseiChalenka/test_Omertex/precache-manifest.b1ba957319101fc39334269d9eaeb493.js",
+    "service-worker.js": "/Lion86-AliakseiChalenka/test_Omertex/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/Lion86-AliakseiChalenka/test_Omertex/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.09acfff9.chunk.js.LICENSE.txt": "/Lion86-AliakseiChalenka/test_Omertex/static/js/2.09acfff9.chunk.js.LICENSE.txt",
+    "static/media/reload.svg": "/Lion86-AliakseiChalenka/test_Omertex/static/media/reload.b25922a2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a9a87c1.js",
+    "static/js/2.09acfff9.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.68d69d5c.chunk.js"
+  ]
+}
