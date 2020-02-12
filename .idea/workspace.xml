@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44f3fe07-8860-4f83-b670-5d3f473d608e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customizedCheckbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customizedSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customizedTextField.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styledRadio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="44f3fe07-8860-4f83-b670-5d3f473d608e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -47,8 +35,8 @@
       <file leaf-file-name="Form.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
+            <state relative-caret-position="109">
+              <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -138,6 +126,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -254,7 +245,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581366438957</updated>
-      <workItem from="1581366443501" duration="49003000" />
+      <workItem from="1581366443501" duration="49377000" />
     </task>
     <task id="LOCAL-00001" summary="version 1, added form withtout redux form">
       <created>1581378315159</created>
@@ -263,25 +254,31 @@
       <option name="project" value="LOCAL" />
       <updated>1581378315160</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version 2, added redux form, validation">
+      <created>1581467834076</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581467834076</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49003000" />
+    <option name="totallyTimeSpent" value="49377000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-8" width="1311" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.15396701" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.15396701" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5003928" side_tool="true" visible="true" weight="0.12557428" />
+      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.5003928" side_tool="true" visible="true" weight="0.50995404" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32924962" />
       <window_info anchor="bottom" id="Version Control" sideWeight="0.2673171" weight="0.3287879" />
       <window_info id="npm" sideWeight="0.5017007" side_tool="true" weight="0.16061775" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49960724" visible="true" weight="0.12557428" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49960724" visible="true" weight="0.50995404" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -321,7 +318,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 1, added form withtout redux form" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1, added form withtout redux form" />
+    <MESSAGE value="version 2, added redux form, validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2, added redux form, validation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -419,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
+        <state relative-caret-position="109">
+          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
