@@ -61,8 +61,9 @@ const StyledCheckbox = (props) => {
     );
 }
 
-export const CustomizedCheckbox = ({ input, label }) => (
+export const CustomizedCheckbox = ({ input, label, isChecked, setIsChecked, disabled}) => (
     <StyledCheckbox
+        disabled={disabled}
         checked={input.value ? true : false}
         onChange={input.onChange}
     />

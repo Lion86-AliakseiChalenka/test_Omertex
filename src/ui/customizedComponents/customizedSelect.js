@@ -1,6 +1,6 @@
-import {Select} from "@material-ui/core";
 import ErrorIcon from '@material-ui/icons/Error';
 import {makeStyles} from '@material-ui/core/styles';
+import clsx from 'clsx';
 import React from 'react';
 
 const useStyles = makeStyles({
@@ -11,22 +11,33 @@ const useStyles = makeStyles({
     },
     select: {
         height: 40,
+        marginLeft: 10,
+        width: 150,
         borderRadius: 3,
-        borderColor: 'light-dark',
+        borderColor: '#c4c4c4',
         fontSize: '1rem',
         fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
         fontWeight: 400,
         lineHeight: 1.5,
         marginBottom: 10,
-        letterSpacing: '0.00938em',
+        letterSpacing: '0.00938em'
+    },
+    activeSelect: {
         '&:hover': {
             borderColor: 'black'
-        },
+        }
+    },
+    error: {
+        position: 'absolute',
+        left: '10%', top: '7px',
+        color: '#bf4557',
+        fontSize: '0.8rem'
     }
 });
 
 export const CustomizedSelect = ({
                                      input,
+                                     disabled,
                                      label,
                                      meta: {touched, error},
                                      children, required
@@ -35,21 +46,21 @@ export const CustomizedSelect = ({
     return (
         <>
             <select
-                className={classes.select}
+                className={clsx(classes.select, !disabled && classes.activeSelect)}
                 required={required}
                 children={children}
-                disabled={false}
+                disabled={disabled}
                 {...input}
                 onChange={(event, value) => {
                     input.onChange(event.target.value)
-                }}
-                inputProps={{
-                    name: 'wirelessNetworkName-ws',
-                    id: 'filled-age-native-simple',
                 }}>
             </select>
             {touched && ((error &&
-                <span style={{color: '#bf4557', fontSize: '0.8rem'}}><span><ErrorIcon fontSize={'small'}/></span>{error}</span>))}
+                <span className={classes.error}>
+                    <span>
+                        <ErrorIcon fontSize={'small'}/>
+                    </span>{error}
+                    </span>))}
         </>
     )
 }
